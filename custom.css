@@ -1,0 +1,41 @@
+body{
+    height: 2000px;
+}
+
+#navigation{
+    background-color: #fff;
+    border-bottom-style: solid;
+    border-bottom-color: #c9c9c9;
+}
+
+#navText{
+   color: #009dff;
+}
+
+#brand{
+    color: #009dff;   
+}
+
+#brand:hover{
+    background-color: #009dff;
+    color: #fff;
+    
+}
+
+#navButton{
+    border-color: #009dff;
+}
+
+#navButton:hover{
+    background-color: #f2faff;
+}
+
+
+.c-2{
+    padding-top:50px;
+}
+
+#iconB1, #iconB2, #iconB3{
+    background-color: #009dff;
+}
+
