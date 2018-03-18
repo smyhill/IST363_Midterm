@@ -1,13 +1,12 @@
-body{
-    height: 2000px;
-}
-
+/* Import Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Source+Sans+Pro:400,400i,700');
 #navigation{
     background-color: #fff;
     border-bottom-style: solid;
     border-bottom-color: #c9c9c9;
+    font-family: 'Source Sans Pro', sans-serif;
 }
-
+/*Navbar Styling*/
 #navText{
    color: #009dff;
 }
@@ -38,4 +37,33 @@ body{
 #iconB1, #iconB2, #iconB3{
     background-color: #009dff;
 }
+/*coverpic*/
+#signature{
+    padding-top:100px;
+}
 
+/*footer obvi*/
+footer{
+    background-color: #009dff;
+    color: #fff;
+    padding-left: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*text undearth coverpic*/
+.shortP{
+    padding-bottom: 50px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.HI{
+    font-size: 60px;
+    color: #009dff;
+}
+
+.snippetTxt, .whatIDo, .wantToDo{
+    color: #727276;
+}
