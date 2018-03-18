@@ -12,7 +12,8 @@
 }
 
 #brand{
-    color: #009dff;   
+    color: #009dff;
+    transition: 1s; 
 }
 
 #brand:hover{
@@ -23,6 +24,7 @@
 
 #navButton{
     border-color: #009dff;
+    transition: 1s;
 }
 
 #navButton:hover{
@@ -169,7 +171,8 @@ footer{
 .jumbotron{
     font-family: 'Open Sans', sans-serif; 
     padding-left: 12px;
-    transition: 1s;
+    transition: 2s;
+    padding-top: 50px;
 }
 
 .jumbotron p{
@@ -182,7 +185,8 @@ footer{
 }
 .resume{
     background-color: #009dff;
-    font-family: 'Open Sans'. sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    transition:1s;
 }
 
 
@@ -208,6 +212,10 @@ footer{
 
 .resumePad{
     padding-top: 20px;
+}
+
+.required{
+    padding-bottom: 20px;
 }
 
 
