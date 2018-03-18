@@ -60,7 +60,7 @@ footer{
 }
 
 .HI{
-    font-size: 60px;
+    font-size: 55px;
     color: #009dff;
 }
 
@@ -165,6 +165,51 @@ footer{
 .largeText:hover{
     color: #009dff;
 }
+
+.jumbotron{
+    font-family: 'Open Sans', sans-serif; 
+    padding-left: 12px;
+    transition: 1s;
+}
+
+.jumbotron p{
+    padding-top: 15px;
+}
+
+.jumbotron:hover{
+    background-color: #009dff;
+    color: #fff;
+}
+.resume{
+    background-color: #009dff;
+    font-family: 'Open Sans'. sans-serif;
+}
+
+
+@media only screen and (max-width: 650px) {
+    .resumeRow{
+        padding-left: 100px;
+    }
+
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    align-content: center;
+}
+
+.item{
+    width: auto;
+}
+
+.heyYou{
+    padding-bottom: 20px;
+}
+
+.resumePad{
+    padding-top: 20px;
+}
+
 
 
 
