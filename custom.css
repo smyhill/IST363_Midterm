@@ -50,7 +50,7 @@ footer{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-/*text undearth coverpic*/
+/*text underneath coverpic*/
 .shortP{
     padding-bottom: 50px;
     padding-left: 12px;
@@ -67,3 +67,18 @@ footer{
 .snippetTxt, .whatIDo, .wantToDo{
     color: #727276;
 }
+
+.contact{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 100px;
+
+}
+
+.hey{
+    color: #009dff;
+}
+
+.howTo{
+    color: #727276;
+}
+

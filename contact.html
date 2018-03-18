@@ -52,5 +52,71 @@
                 </div>
             </nav>
 
+<!--Contact Form I Have Created with Bootstrap Elements, Planning On going Back and figuring out how to use PHP to actually send the emails. Maybe I'll have time to figure this out.-->
+<div class="container contact">
+        <h1 class="hey">Hey, If you like what ya saw send me a message!</h1>
+        <p class="howTo">Just enter your contact information below and leave a short message. I'm looking forward to hearing from you.</p>
+    <form>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="firstname">Firstname *</label>
+                    <input id="firstname" type="text" name="name" class="form-control" placeholder="Your firstname goes here *" required="required" data-error="Hey you,firstnames are required.">                
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="lastname">Lastname *</label>
+                    <input id="lastname" type="text" name="lastname" class="form-control" placeholder="Your lastname goes here *" required="required" data-error="Hey you, lastnames are required">            
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="phone-number">Phone</label>
+                        <input id="phone-number" type="tel" name="phone" class="form-control" placeholder="Your phone number goes here">                 
+                    </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input id="email" type="email" name="email" class="form-control" placeholder="Your email address goes here *" required="required" data-error="Hey you, a valid email address is required">                
+                </div>
+            </div>
+        </div>
+            
+        
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="message">Message for Me*</label>
+                    <textarea id="message" name="message" class="form-control" placeholder="Shoot me a message *" rows="4" required="required" data-error="You gotta leave a message"></textarea>
+                </div>
+            </div>
+            <div class="col-md-12 button">
+                <input type="submit" class="btn btn-primary btn-send" value="Send it out">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <p>Fields with this* are required.</p>
+            </div>
+        </div>
+                    
+
+    </form>
+                    
+</div>
+
+<!--Footer-->
+<footer class="footer navbar-fixed-bottom">
+        <div class="copyRight">
+            <i class="far fa-copyright"></i>
+            2018 Simon Myhill. All Rights Reserved.
+        </div>
+    </footer>
 </body>
 </html>
