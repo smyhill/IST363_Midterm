@@ -82,3 +82,93 @@ footer{
     color: #727276;
 }
 
+.topText{
+    padding-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100px;
+    padding-left: 50px;
+    color: #fff;
+    
+}
+
+
+.topPic{
+    padding-top: 100px;
+    border-radius: 50%;
+    opacity: 75%;
+    
+}
+
+.topStuff{
+    background-color: #009dff;
+    width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+    .topText {
+        font-size: 65px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .topPic {
+        padding-top: 35px;
+    }
+}
+
+
+.largeText{
+    font-size: 45px;
+    color: #727276;
+    font-family: 'Open Sans', sans-serif;
+    transition: 1s;
+}
+
+.aboutText{
+    font-size: 20px;
+    padding-bottom: 50px;
+    color: #727276;
+    font-family: 'Open Sans', sans-serif;
+    kerning: 25px;
+    letter-spacing: 1px;
+    line-height: 25px;
+
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .largeText {
+        font-size: 30px;
+    }
+    .aboutText{
+        font-size: 15px;
+    }
+
+}
+/* Come Back to this later
+.blockWrapper:hover{
+    background-color: #009dff;
+    
+}
+
+.aboutText:hover{
+    color: #fff;
+}
+
+.largeText:hover{
+    color: #fff;
+}
+
+*/
+
+.largeText:hover{
+    color: #009dff;
+}
+
+
+
+
+
+
+
